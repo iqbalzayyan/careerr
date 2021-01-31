@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Asap', sans-serif;
+}
+
+body {
+    background: #f1f3f6;
+}
+
+
+/* Start: BACKGROUND-HEADING */
+
+.background-heading {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    height: 756px;
+    background-image: url('/images/img-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* End: BACKGROUND-HEADING */
+
+
+/* Start: NAVBAR */
+
+nav .brand {
+    position: relative;
+    width: 100px;
+}
+
+nav .nav-link {
+    color: #ffffff !important;
+}
+
+nav .nav-link:hover {
+    color: #1DBF73 !important;
+}
+
+nav .btn-custom {
+    align-self: center;
+    padding: 4px 25px;
+    background: none;
+    border: #ffffff solid 2px;
+}
+
+nav .btn-custom:hover {
+    background: #ffffff;
+    color: #1DBF73;
+    border: #ffffff solid 2px;
+}
+
+
+/* End: NAVBAR */
+
+
+/* Star: HEADING */
+
+header h1 {
+    font-size: 65px;
+    color: #ffffff;
+}
+
+header .img-career {
+    margin-top: 0px;
+}
+
+header .btn-primary {
+    background-color: #1DBF73;
+    border: none;
+}
+
+header .btn-primary:hover {
+    background-color: #159258;
+}
+
+
+/* End: HEADING */
+
+
+/* Start: SECTION-FEATURED */
+
+.section-featured {
+    margin-top: 150px;
+}
+
+.section-featured .subtext-featured {
+    padding-left: 525px;
+    padding-right: 525px;
+}
+
+.section-featured p {
+    color: #CACAD2;
+}
+
+.section-featured .card-custom {
+    border: none;
+}
+
+.section-featured .text-salary {
+    font-size: 22px;
+    font-weight: 400;
+    color: #0F1D37;
+    margin-top: 72px;
+}
+
+.section-featured .text-expertise {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 66px;
+    color: #0F1D37;
+    padding-right: 110px;
+}
+
+.section-featured .btn-info {
+    width: 110px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #65D9E4;
+    background: #EBFAFC;
+    border: none;
+    margin-left: 12px;
+}
+
+
+/* End: SECTION-FEATURED */
+
+
+/* Start: SECTION-REASON */
+
+.section-reason {
+    margin-top: 150px;
+}
+
+.section-reason h3 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #0F1D37;
+}
+
+.section-reason ul .reason-text0 {
+    font-size: 22px;
+    font-weight: 400;
+    list-style: url('/images/dot-0.png');
+}
+
+.section-reason ul .reason-text1 {
+    font-size: 22px;
+    font-weight: 400;
+    list-style: url('/images/dot-1.png');
+}
+
+.section-reason .link-reason {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* End: SECTION-REASON */
+
+
+/* Start: SECTION-SUBSCRIBE */
+
+.section-subscribe {
+    margin: 150px 0;
+}
+
+.section-subscribe .card-subs {
+    background: linear-gradient(109deg, #003815 2.95%, #00411E 115.49%);
+    border-radius: 20px;
+}
+
+.section-subscribe h5,
+p {
+    color: #ffffff;
+}
+
+.section-subscribe .card-email {
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 56px;
+    /* position: relative; */
+    width: 450px;
+    height: 45px;
+}
+
+.section-subscribe .card-email .input-text {
+    border: none;
+    border-radius: 16px 56px 56px 16px;
+    width: 250px;
+    height: 45px;
+}
+
+.section-subscribe .card-email .submit {
+    /* position: absolute; */
+    right: 0;
+    border: none;
+    border-radius: 56px;
+    background-color: #0ACC94;
+    width: 200px;
+    height: 45px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* End: SECTION-SUBSCRIBE */
+
+
+/* Responsive Breakpoints */
+
+
+/* Start: Smartphone max-425 */
+
+@media (min-width:320px) and (max-width:425px) {
+    /* Start: Navbar */
+    .btn-primary {
+        margin-left: 0 !important;
+    }
+    nav .nav-link {
+        text-align: center;
+    }
+    /* End: Navbar */
+    /* Start: Heading */
+    header h1 {
+        font-size: 32.5px;
+    }
+    header .img-career {
+        margin-top: 30px;
+        width: 517px;
+    }
+    /* End: Heading */
+    /* Start: partners */
+    .section-partners .img-partners {
+        width: 250px !important;
+    }
+    /* End: partners */
+    /* Start: featured */
+    .section-featured .link-incoming {
+        margin-top: 25px;
+    }
+    .section-featured h2 {
+        padding: 0 !important;
+    }
+    .section-featured .featured-custom {
+        margin-top: 25px !important;
+    }
+    .section-featured .text-salary {
+        margin-top: 40px !important;
+        margin-right: 40px;
+    }
+    .section-featured .text-expertise {
+        margin-top: 60px !important;
+        margin-right: 60px;
+    }
+    /* End: featured */
+    /* Start: Section-Reason */
+    .section-reason img {
+        width: 300px;
+        right: 0;
+    }
+    /* End: Section-Reason */
+    /* Start: Section-Subscribe */
+    .section-subscribe .card-email {
+        width: 250px;
+        margin-bottom: 30px;
+    }
+    .section-subscribe .card-email .input-text {
+        width: 150px;
+    }
+    /* End: Section-Subscribe */
+}
+
+
+/* End: Smartphone max-425 */
+
+
+/* Start: Tablet sm */
+
+@media (max-width:768px) {
+    /* Start: Navbar */
+    .btn-primary {
+        margin-left: 0 !important;
+    }
+    nav .nav-link {
+        text-align: center;
+    }
+    /* End: Navbar */
+    /* Start: Heading */
+    header h1 {
+        font-size: 32.5px;
+    }
+    header .img-career {
+        margin-top: 30px;
+        width: 517px;
+    }
+    /* End: Heading */
+    /* Start: Partners */
+    .section-partners .img-partners {
+        width: 250px;
+    }
+    /* End: Partners */
+    /* Start: featured */
+    .section-featured {
+        margin-top: 30px;
+    }
+    .section-featured .subtext-featured {
+        color: #ffffff;
+        margin-bottom: 40px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .section-featured h2 {
+        padding: 0 150px;
+    }
+    .section-featured .card-custom {
+        padding: 10px !important;
+    }
+    .section-featured h4 {
+        font-size: 20px;
+    }
+    .section-featured p {
+        width: 130px;
+        font-size: 12px;
+        margin: 0;
+    }
+    .section-featured .text-salary {
+        font-size: 16px;
+        width: 150px;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+    .section-featured .text-expertise {
+        font-size: 18px;
+        width: 190px;
+        margin-top: 25px;
+        margin-bottom: 0;
+        padding: 0 10px;
+    }
+    .section-featured strong {
+        font-size: 22px !important;
+        font-weight: 500;
+        color: #10495C;
+    }
+    .section-featured .featured-custom {
+        margin-top: 0;
+    }
+    .section-featured .button-custom {
+        margin-top: 10px;
+    }
+    /* End: featured */
+    /* Start: reason */
+    .section-reason h3 {
+        font-size: 30px;
+    }
+    .section-reason .reason-text0 {
+        font-size: 18px;
+    }
+    .section-reason .reason-text1 {
+        font-size: 18px;
+    }
+    /* End: reason */
+}
+
+
+/* End: Tablet sm */
+
+
+/* Start: Laptop sm */
+
+@media (max-width:1024px) {
+    /* Start: Partners */
+    .section-partners .img-partners {
+        width: 600px;
+    }
+    /* End: Partners */
+}
+
+
+/* End: Laptop sm */
+
+
+/* Start: Dekstop sm - lg */
+
+@media (min-width:1024px) and (max-width:1440px) {
+    /* Start: Heading */
+    header h1 {
+        width: 650px;
+    }
+    /* End: Heading */
+}
+
+
+/* Start: Dekstop sm - lg */
